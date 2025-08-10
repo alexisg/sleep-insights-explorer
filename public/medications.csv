@@ -1,0 +1,30 @@
+date,medication,dose_mg,action
+2025-07-15,LAMOTRIGINE CHW,10,START
+2025-06-10,Buspirone Hcl,5,
+2025-04-10,Buspirone Hcl,10,
+2025-02-28,Buspirone Hcl,20,
+2025-01-28,Buspirone Hcl,30,
+2024-09-16,Buspirone Hcl,20,
+2023-08-28,Buspirone Hcl,15,START
+2025-03-13,SERTRALINE,2250,
+2025-01-22,SERTRALINE,200,
+2024-12-18,SERTRALINE,150,
+2024-11-23,SERTRALINE,50,START
+2024-06-18,Bupropion Hcl Xl,150,STOP
+2024-05-18,Bupropion Hcl Xl,150,
+2024-04-18,Bupropion Hcl Xl,150,
+2024-03-25,Bupropion Hcl Xl,150,
+2023-10-10,Bupropion Hcl Xl,150,START
+2024-12-14,Trintellix,20,STOP
+2024-11-14,Trintellix,20,
+2024-06-12,Trintellix,20,
+2024-12-23,Trintellix,15,
+2024-01-23,Trintellix,15,
+2024-05-18,Trintellix,15,
+2024-05-05,Trintellix,10,
+2024-04-18,Trintellix,5,START
+2024-05-18,Escitalopram,10,STOP
+2024-04-18,Escitalopram,10,
+2024-02-11,Escitalopram,10,
+2023-12-09,Escitalopram,5,
+2023-11-12,Escitalopram,5,START

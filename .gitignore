@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS / Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Env / logs
+.env
+*.log
+
+# Hosting
+.vercel/
+.netlify/
