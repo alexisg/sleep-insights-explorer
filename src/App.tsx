@@ -297,7 +297,7 @@ function TimeSeriesChart({
   return (
     <div className="h-72 w-full">
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={data} margin={{ top: 10, right: 20, left: 10, bottom: 0 }}>
+        <LineChart data={data} margin={{ top: 60, right: 20, left: 10, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="dateStr" minTickGap={32} />
           <YAxis width={40} />
@@ -310,15 +310,15 @@ function TimeSeriesChart({
             <ReferenceLine
               key={i}
               x={m.date.toISOString().slice(0, 10)}
-              stroke="#111827"
-              strokeDasharray="4 4"
+              stroke="hsla(220, 20%, 10%, .8)"
+              strokeDasharray="2 2"
               label={{
                 position: "top",
                 value: m.label,
                 angle: -90,
-                offset: 10,
-                fill: "#374151",
-                fontSize: 10,
+                offset: 0,
+                fill: "hsl(220, 20%, 20%)",
+                fontSize: 11,
               }}
             />
           ))}
@@ -337,7 +337,7 @@ function TimeSeriesChart({
               name={`${yKey} (rolling)`}
               stroke="#1f2937"
               dot={false}
-              strokeWidth={2}
+              strokeWidth={1}
             />
           )}
           <Brush dataKey="dateStr" height={18} travellerWidth={8} className="rounded" />
