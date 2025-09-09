@@ -491,7 +491,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch("/medications.csv");
+        const res = await fetch("./medications.csv");
         if (!res.ok) return;
         const text = await res.text();
         const events = parseMedsCsvText(text);
@@ -505,7 +505,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch("/sleep_data.csv");
+        const res = await fetch("./sleep_data.csv");
         if (!res.ok) return;
         const text = await res.text();
         const parsed = Papa.parse(text, { header: true }).data as any[];
