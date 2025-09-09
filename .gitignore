@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+
+# OS / Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Env / logs
+.env
+*.log
+
+# Hosting
+.vercel/
+.netlify/

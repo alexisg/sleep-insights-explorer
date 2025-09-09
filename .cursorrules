@@ -1,0 +1,57 @@
+# Sleep Insights Explorer - Cursor Rules
+
+## Commit Message Style
+All commits must follow conventional commit format with short, one-line messages:
+
+### Format: `<type>: <description>`
+
+### Types:
+- `feat:` - New features or functionality
+- `fix:` - Bug fixes
+- `chore:` - Maintenance tasks, dependencies, build changes
+- `docs:` - Documentation updates
+- `style:` - Code formatting, whitespace, no logic changes
+- `refactor:` - Code restructuring without changing functionality
+- `perf:` - Performance improvements
+- `test:` - Adding or updating tests
+- `ci:` - Continuous integration changes
+
+### Examples:
+- `feat: add medication change tracking`
+- `fix: resolve chart rendering issue`
+- `chore: update dependencies`
+- `docs: update README with new features`
+- `style: format code with prettier`
+- `refactor: simplify chart component logic`
+- `perf: optimize data processing`
+- `test: add unit tests for sleep data parsing`
+- `ci: add GitHub Actions workflow`
+
+### Rules:
+- Keep descriptions under 50 characters
+- Use lowercase for type and description
+- No period at the end
+- Be specific but concise
+- Focus on what changed, not why
+
+## Project Context
+This is a React/TypeScript sleep data visualization app using:
+- Vite for build tooling
+- Bun for package management
+- Recharts for data visualization
+- Tailwind CSS for styling
+- Papa Parse for CSV processing
+
+## Code Style
+- Use TypeScript strict mode
+- Prefer functional components with hooks
+- Use Tailwind CSS for styling
+- Keep components focused and single-purpose
+- Use meaningful variable and function names
+- Add JSDoc comments for complex functions
+
+## File Organization
+- Keep components in `src/` directory
+- Use descriptive file names
+- Group related functionality together
+- Keep imports organized and minimal
