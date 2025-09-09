@@ -5,6 +5,9 @@ package-lock.json
 # Build output
 dist/
 
+# Vite cache
+.vite/
+
 # OS / Editors
 .DS_Store
 .vscode/
