@@ -117,7 +117,14 @@ export function DatePickerWithPresets({
               offset: [0, 8],
             },
           },
+          {
+            name: 'preventOverflow',
+            options: {
+              boundary: 'viewport',
+            },
+          },
         ]}
+        popperPlacement="bottom-start"
       />
       
       {/* Preset select dropdown */}
