@@ -105,26 +105,6 @@ export function DatePickerWithPresets({
         renderDayContents={(day) => (
           <span className="text-sm">{day}</span>
         )}
-        popperContainer={({ children }) => (
-          <div className="z-50">
-            {children}
-          </div>
-        )}
-        popperModifiers={[
-          {
-            name: 'offset',
-            options: {
-              offset: [0, 8],
-            },
-          },
-          {
-            name: 'preventOverflow',
-            options: {
-              boundary: 'viewport',
-            },
-          },
-        ]}
-        popperPlacement="bottom-start"
       />
       
       {/* Preset select dropdown */}
