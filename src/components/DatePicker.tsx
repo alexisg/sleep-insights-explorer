@@ -72,7 +72,8 @@ export function DatePickerWithPresets({
         placeholderText={placeholder}
         minDate={minDate}
         maxDate={maxDate}
-        className={`w-full rounded-xl border px-3 py-2 ${className}`}
+        showPopperArrow={false}
+        className={`w-full rounded-xl border px-3 p-2 ${className}`}
         dateFormat="yyyy-MM-dd"
         isClearable
         renderCustomHeader={({
@@ -82,7 +83,7 @@ export function DatePickerWithPresets({
           prevMonthButtonDisabled,
           nextMonthButtonDisabled,
         }) => (
-          <div className="flex items-center justify-between p-2 border-b">
+          <div className="flex items-center justify-between px-2 py-1">
             <button
               onClick={decreaseMonth}
               disabled={prevMonthButtonDisabled}
